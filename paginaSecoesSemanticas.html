@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página com Seções Semânticas</title>
+    <style>
+        /* Resetando estilos padrões */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilo para o corpo da página */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            padding: 20px;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        /* Navegação */
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            background-color: #333;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li:last-child {
+            margin-right: 0;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #007BFF;
+        }
+
+        /* Conteúdo principal */
+        main {
+            margin-top: 20px;
+        }
+
+        section {
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #007BFF;
+            margin-bottom: 10px;
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Eduardo Motta Damasceno</h1>
+        <p>Bem-vindo à minha página com seções semânticas!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Contatos</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Sobre Mim</h2>
+            <p>Sou um apaixonado por tecnologia e busco constantemente aprender e inovar. Gosto de música, academia e jogos. Sempre procuro melhorar em cada área da minha vida.</p>
+        </section>
+
+        <section>
+            <h2>Projetos Recentes</h2>
+            <p>Atualmente, estou trabalhando em um projeto de análise de sistemas, com foco em otimizar processos e integrar tecnologias para soluções mais eficientes.</p>
+        </section>
+
+        <section>
+            <h2>Meus Hobbies</h2>
+            <ul>
+                <li>Música</li>
+                <li>Academia</li>
+                <li>Jogos</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Eduardo Motta Damasceno | Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
